@@ -14,7 +14,7 @@ from deepseek_vl.models import VLChatProcessor, MultiModalityCausalLM
 from deepseek_vl.utils.io import load_pil_images
 import streamlit as st
 
-PDF_STORE = r"/Users/revathsankar/Documents/Adv Big AI/Midterm/Pub1564webNew-74666420.pdf"
+PDF_STORE = r"/Users/revathsankar/Documents/Adv Big AI/radiologyAI/Pub1564webNew-74666420.pdf"
 torch.classes.__path__ = [] # add this line to manually set it to empty. 
 
 class Pipeline:

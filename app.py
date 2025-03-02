@@ -9,10 +9,10 @@ from streamlit_image_select import image_select
 from skimage import transform
 import uuid
 
-TRAINING_DATA_IMG = r"/Users/revathsankar/Documents/Adv Big AI/Midterm/output.png"
+TRAINING_DATA_IMG = r"output.png"
 COLUMBIA_LOGO = "https://visualidentity.columbia.edu/sites/default/files/styles/cu_crop/public/private/2023-logo-blue-white.jpg?itok=H8HIEYVa"
 tumor_type = random.choice(['glioma', 'meningioma', 'pituitary_tumor','no_tumor' ])
-IMAGE_DIR = fr'/Users/revathsankar/Documents/Adv Big AI/Midterm/Brain-MRI-Image-Classification-Using-Deep-Learning/Brain-Tumor-Dataset/Training/{tumor_type}'
+IMAGE_DIR = fr'/Users/revathsankar/Documents/Adv Big AI/radiologyAI/Brain-MRI-Image-Classification-Using-Deep-Learning/Brain-Tumor-Dataset/Training/{tumor_type}'
 image_size = 128
 batch_size = 32
 
